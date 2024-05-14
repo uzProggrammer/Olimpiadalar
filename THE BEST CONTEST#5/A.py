@@ -1,0 +1,5 @@
+c=input()
+if c in "0123456789":print("RAQAM")
+elif c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ":print("LOTIN")
+elif c in "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ":print("RUS")
+else:print("BELGI")
